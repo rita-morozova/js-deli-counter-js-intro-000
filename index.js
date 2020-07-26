@@ -12,7 +12,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
- if (katzDeliLine > 0){
+ if (katzDeliLine.length > 0){
     for (let i=0; i<katzDeliLine.length; i++){
     return `The line is currently: ${katzDeliLine.length}. ${katzDeliLine[i]}`
   }
